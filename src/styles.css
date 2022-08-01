@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    margin-top: 40px;
+}
+
+h3, p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.product {
+    display: grid;
+    grid-template-rows: 55px 55px 55px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid aquamarine;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.product:hover {
+    box-shadow: 3px 3px 10px 2px aquamarine, -3px -3px 10px 2px aquamarine;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
